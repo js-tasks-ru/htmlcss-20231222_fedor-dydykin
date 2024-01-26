@@ -1,0 +1,114 @@
+.demo-page {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.histogram {
+    width: 354px;
+    height: 185px;
+    border: solid 1px var(--gray);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.histogram__header {
+    padding: 16px 24px;
+    color: var(--black);
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.histogram__header-title {
+    font-size: 16px;
+    opacity: 0.8;
+    width: 50%;
+    overflow: hidden;
+    max-height: 24px;
+}
+
+.histogram__header-value {
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 3px;
+    order: 1;
+    width: 100%;
+    overflow: hidden;
+    max-height: 26px;
+}
+
+.histogram__header-link {
+    color: var(--blue);
+    text-align: right;
+    font-size: 16px;
+    width: 50%;
+    overflow: hidden;
+    max-height: 24px;
+}
+
+.histogram__data-container {
+    display: flex;
+    gap: 1px;
+    justify-content: stretch;
+    height: 50px;
+    align-items: end;
+    padding: 24px 26px;
+    margin-top: auto;
+}
+
+.histogram__data {
+    min-width: 1px;
+    background-color: var(--blue);
+    flex-grow: 1;
+}
+
+.histogram__data[data-value^="0.1"] {
+    height: 10%;
+}
+
+.histogram__data[data-value^="0.2"] {
+    height: 20%;
+}
+
+.histogram__data[data-value^="0.3"] {
+    height: 30%;
+}
+
+.histogram__data[data-value^="0.4"] {
+    height: 40%;
+}
+
+.histogram__data[data-value^="0.5"] {
+    height: 50%;
+}
+
+.histogram__data[data-value^="0.6"] {
+    height: 60%;
+}
+
+.histogram__data[data-value^="0.7"] {
+    height: 70%;
+}
+
+.histogram__data[data-value^="0.8"] {
+    height: 80%;
+}
+
+.histogram__data[data-value^="0.9"] {
+    height: 90%;
+}
+
+.histogram__data[data-value="1"] {
+    height: 100%;
+}
+
+.histogram__data[data-value^="0.0"]{
+    height: 1%;
+}
