@@ -1,56 +1,47 @@
-.demo-page {
-    display: flex;
-    gap: 10px;
-    padding: 10px;
-    flex-wrap: wrap;
-}
-
 .histogram {
-    width: 354px;
-    height: 185px;
+    min-width: 354px;
+    min-height: 185px;
     border: solid 1px var(--gray);
     border-radius: 5px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    padding: 16px 24px 26px;
 }
 
 .histogram__header {
-    padding: 16px 24px;
     color: var(--black);
     font-family: Inter, serif;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.histogram__header-amount {
+    overflow: hidden;
 }
 
 .histogram__header-title {
     font-size: 16px;
     opacity: 0.8;
-    width: 50%;
-    overflow: hidden;
-    max-height: 24px;
+    display: block;
 }
 
 .histogram__header-value {
     font-size: 20px;
     line-height: 26px;
     padding-top: 3px;
-    order: 1;
-    width: 100%;
-    overflow: hidden;
-    max-height: 26px;
+    display: block;
 }
 
 .histogram__header-link {
     color: var(--blue);
     text-align: right;
     font-size: 16px;
-    width: 50%;
+    cursor: pointer;
     overflow: hidden;
-    max-height: 24px;
 }
 
 .histogram__data-container {
@@ -59,8 +50,7 @@
     justify-content: stretch;
     height: 50px;
     align-items: end;
-    padding: 24px 26px;
-    margin-top: auto;
+    padding-top: 39px;
 }
 
 .histogram__data {
@@ -69,46 +59,46 @@
     flex-grow: 1;
 }
 
-.histogram__data[data-value^="0.1"] {
+.histogram__data--h10 {
     height: 10%;
 }
 
-.histogram__data[data-value^="0.2"] {
+.histogram__data--h20 {
     height: 20%;
 }
 
-.histogram__data[data-value^="0.3"] {
+.histogram__data--h30 {
     height: 30%;
 }
 
-.histogram__data[data-value^="0.4"] {
+.histogram__data--h40 {
     height: 40%;
 }
 
-.histogram__data[data-value^="0.5"] {
+.histogram__data--h50 {
     height: 50%;
 }
 
-.histogram__data[data-value^="0.6"] {
+.histogram__data--h60 {
     height: 60%;
 }
 
-.histogram__data[data-value^="0.7"] {
+.histogram__data--h70 {
     height: 70%;
 }
 
-.histogram__data[data-value^="0.8"] {
+.histogram__data--h80 {
     height: 80%;
 }
 
-.histogram__data[data-value^="0.9"] {
+.histogram__data--h90 {
     height: 90%;
 }
 
-.histogram__data[data-value="1"] {
+.histogram__data--h100 {
     height: 100%;
 }
 
-.histogram__data[data-value^="0.0"]{
+.histogram__data--h0{
     height: 1%;
 }
