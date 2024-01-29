@@ -1,8 +1,4 @@
 /* Стилизация аккордеона */
-.demo-page__content {
-    margin: 10px;
-}
-
 .accordion__item {
     padding: 24px 32px;
     margin-bottom: 8px;
