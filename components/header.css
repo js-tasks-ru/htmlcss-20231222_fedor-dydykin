@@ -1,0 +1,16 @@
+.header {
+    background-color: var(--white);
+}
+
+.header__text {
+    margin-top: 96px;
+    margin-left: 160px;
+    margin-bottom: 77px;
+    color: var(--black);
+    /* h1 */
+    font-family: Inter, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px; /* 128% */
+}
