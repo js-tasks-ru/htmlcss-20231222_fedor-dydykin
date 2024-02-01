@@ -8,9 +8,10 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    padding-bottom: 30px;
 }
 
-.card__header {
+.card__title {
     color: var(--black);
     text-align: center;
     font-family: Roboto, serif;
@@ -18,5 +19,4 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-bottom: 30px;
 }
