@@ -1,12 +1,14 @@
 .histogram {
-    min-width: 354px;
-    min-height: 185px;
     border: solid 1px var(--gray);
-    border-radius: 5px;
+    border-radius: 8px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding: 16px 24px 26px;
+    padding: 16px 24px 24px;
+}
+
+.histogram_demo {
+    min-width: 354px;
 }
 
 .histogram__header {
@@ -38,10 +40,8 @@
 
 .histogram__header-link {
     color: var(--blue);
-    text-align: right;
     font-size: 16px;
     cursor: pointer;
-    overflow: hidden;
 }
 
 .histogram__data-container {
@@ -50,7 +50,7 @@
     justify-content: stretch;
     height: 50px;
     align-items: end;
-    padding-top: 39px;
+    margin-top: 39px;
 }
 
 .histogram__data {
@@ -59,46 +59,46 @@
     flex-grow: 1;
 }
 
-.histogram__data--h10 {
+.histogram__data_h10 {
     height: 10%;
 }
 
-.histogram__data--h20 {
+.histogram__data_h20 {
     height: 20%;
 }
 
-.histogram__data--h30 {
+.histogram__data_h30 {
     height: 30%;
 }
 
-.histogram__data--h40 {
+.histogram__data_h40 {
     height: 40%;
 }
 
-.histogram__data--h50 {
+.histogram__data_h50 {
     height: 50%;
 }
 
-.histogram__data--h60 {
+.histogram__data_h60 {
     height: 60%;
 }
 
-.histogram__data--h70 {
+.histogram__data_h70 {
     height: 70%;
 }
 
-.histogram__data--h80 {
+.histogram__data_h80 {
     height: 80%;
 }
 
-.histogram__data--h90 {
+.histogram__data_h90 {
     height: 90%;
 }
 
-.histogram__data--h100 {
+.histogram__data_h100 {
     height: 100%;
 }
 
-.histogram__data--h0{
+.histogram__data_h0{
     height: 1%;
 }
