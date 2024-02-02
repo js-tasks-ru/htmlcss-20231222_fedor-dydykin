@@ -1,3 +1,10 @@
 .demo-page__content {
     margin: 10px;
 }
+
+.demo-page_modal {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
