@@ -1,3 +1,8 @@
 .demo-page__content {
     margin: 10px;
 }
+
+.demo-page_tooltip {
+    text-align: center;
+    padding-top: 70px;
+}
