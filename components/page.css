@@ -6,10 +6,6 @@
 }
 
 .page__content {
-    background: var(--gray-5);
-    padding: 68px 160px;
-    border-top: solid 1px var(--grey-2);
-    border-bottom: solid 1px var(--grey-2);
     flex-grow: 1;
 }
 
