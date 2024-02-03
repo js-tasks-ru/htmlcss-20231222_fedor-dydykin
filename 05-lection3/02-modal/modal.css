@@ -1,4 +1,4 @@
-.modal__wrapper {
+.modal {
    left: 0;
     top: 0;
     right: 0;
@@ -8,7 +8,7 @@
     background: rgba(196, 196, 196, 0.5);
 }
 
-.modal {
+.modal__window {
     display: block;
     position: fixed;
     background: var(--white);
@@ -19,18 +19,14 @@
     padding: 30px 40px 33px;
 }
 
-.modal__nav {
-    text-align: right;
-    position: absolute;
-    right: 12px;
-    top: 12px;
-}
-
 .modal__close-button {
     display: inline-block;
     background-color: transparent;
     border: 0;
     cursor: pointer;
+    position: absolute;
+    right: 12px;
+    top: 12px;
 }
 
 .modal__title {
