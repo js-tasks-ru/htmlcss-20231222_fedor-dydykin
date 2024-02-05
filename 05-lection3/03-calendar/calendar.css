@@ -50,7 +50,7 @@
     align-items: center;
 }
 
-.calendar__item--day-of-week {
+.calendar__item_day-of-week {
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
@@ -59,11 +59,11 @@
     color: var(--grey-6);
 }
 
-.calendar__item--selection-start, .calendar__item--selection-end {
+.calendar__item_selection-start, .calendar__item_selection-end {
     background-color: var(--blue);
     color: var(--white);
 }
 
-.calendar__item--selection {
+.calendar__item_selection {
     background-color: var(--grey-7);
 }
