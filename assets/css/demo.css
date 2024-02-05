@@ -1,10 +1,12 @@
 .demo-page {
+    display: flex;
+    gap: 10px;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .demo-page_modal {
     height: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
