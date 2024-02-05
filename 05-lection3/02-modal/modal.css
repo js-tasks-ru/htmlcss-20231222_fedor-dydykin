@@ -10,7 +10,7 @@
 
 .modal__window {
     display: block;
-    position: fixed;
+    position: absolute;
     background: var(--white);
     border-radius: 8px;
     top: 50%;
