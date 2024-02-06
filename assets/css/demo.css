@@ -4,3 +4,8 @@
     padding: 10px;
     flex-wrap: wrap;
 }
+
+.demo-page_tooltip {
+    text-align: center;
+    padding-top: 70px;
+}
