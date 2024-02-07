@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.header__wrapper {
+    @media screen and (min-width: 1127px) {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+.header__text {
+    margin-top: 96px;
+    margin-bottom: 77px;
+    color: var(--black);
+    /* h1 */
+    font-family: Inter, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px; /* 128% */
+    text-align: center;
+
+    @media screen and (min-width: 1127px) {
+        text-align: left;
+    }
+}

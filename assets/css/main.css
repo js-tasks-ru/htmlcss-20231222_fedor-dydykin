@@ -16,6 +16,7 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --gray-5: #F9FAFC;
     --grey-6: #90A0B7;
     --grey-7: #A0B1F5;
 
@@ -28,4 +29,8 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
 }

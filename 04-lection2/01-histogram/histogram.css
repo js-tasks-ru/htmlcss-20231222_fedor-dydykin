@@ -1,0 +1,104 @@
+.histogram {
+    border: solid 1px var(--gray);
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px 24px;
+}
+
+.histogram_demo {
+    min-width: 354px;
+}
+
+.histogram__header {
+    color: var(--black);
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.histogram__header-amount {
+    overflow: hidden;
+}
+
+.histogram__header-title {
+    font-size: 16px;
+    opacity: 0.8;
+    display: block;
+}
+
+.histogram__header-value {
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 3px;
+    display: block;
+}
+
+.histogram__header-link {
+    color: var(--blue);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.histogram__data-container {
+    display: flex;
+    gap: 1px;
+    justify-content: stretch;
+    height: 50px;
+    align-items: end;
+    margin-top: 39px;
+}
+
+.histogram__data {
+    min-width: 1px;
+    background-color: var(--blue);
+    flex-grow: 1;
+}
+
+.histogram__data_h10 {
+    height: 10%;
+}
+
+.histogram__data_h20 {
+    height: 20%;
+}
+
+.histogram__data_h30 {
+    height: 30%;
+}
+
+.histogram__data_h40 {
+    height: 40%;
+}
+
+.histogram__data_h50 {
+    height: 50%;
+}
+
+.histogram__data_h60 {
+    height: 60%;
+}
+
+.histogram__data_h70 {
+    height: 70%;
+}
+
+.histogram__data_h80 {
+    height: 80%;
+}
+
+.histogram__data_h90 {
+    height: 90%;
+}
+
+.histogram__data_h100 {
+    height: 100%;
+}
+
+.histogram__data_h0{
+    height: 1%;
+}
