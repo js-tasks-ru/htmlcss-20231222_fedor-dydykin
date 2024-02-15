@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./srcset.css">
-    </head>
-    <body>
-
-    </body>
+<head>
+  <link rel="stylesheet" href="../../assets/css/normalize.css">
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <link rel="stylesheet" href="../../assets/css/demo.css">
+  <link rel="stylesheet" href="./srcset.css">
+  <title>Srcset</title>
+</head>
+<body>
+<div class="demo-page">
+    <div class="square">
+      <img
+        class="square__picture"
+        srcset="public/forest_400.jpg, public/forest_768.jpg 2x"
+        src="public/forest_400.jpg"
+        alt="Testing srcset" />
+    </div>
+</div>
+</body>
 </html>
