@@ -1,0 +1,21 @@
+.avatar_demo {
+    width: 102px;
+    height: 102px;
+}
+
+.avatar_library-component {
+    width: 116px;
+    height: 116px;
+}
+
+.avatar_card-element {
+    width: 64px;
+    height: 64px;
+}
+
+.avatar__picture {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
